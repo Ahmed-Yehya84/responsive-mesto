@@ -1,0 +1,12 @@
+.profile__information {
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* media queries */
+@media screen and (max-width: 873px) {
+  .profile__information {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
